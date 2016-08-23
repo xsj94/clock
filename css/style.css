@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+}
+
+body {
+    font-size: 12px;
+    background: #f0f0f0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clock{ width: 759px; height: 735px; background: url("../images/clock-bg.jpg")
+no-repeat; margin: 0 auto; position: relative; z-index: -99;}
+.clock li{ position: absolute; transform: rotate(0deg);}
+#hour{ width: 31px; height: 292px; top: 225px; left: 363px;}
+#minute{ width: 27px; height: 410px; top: 164px;left: 365px;}
+#second{ width: 31px; height: 478px; top: 132px; left: 363px;}
